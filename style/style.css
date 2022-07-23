@@ -38,3 +38,36 @@ iframe#tela{
     width: 270px;
     height: 470px;
 }
+#icons img{
+    display: block;
+    width: 50px;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+#icons{
+    position: relative;
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#icons:hover{
+    box-sizing: 0px 0px 10px white;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+#redes-sociais{
+    text-align: right;
+}
+#redes-sociais img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.500);
+}
+#redes-sociais img:hover{
+    transition: 0.5s ease-in-out;
+    transform: translate(-2px, -10px);
+    box-shadow: -2px -2px -10px rgba(0, 0, 0, 0.500);
+    box-shadow: 0px 0px 25px white;
+}
