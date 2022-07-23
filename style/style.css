@@ -31,3 +31,10 @@ section#celular{
     background-image: url('../images/frame-iphone.png');
     background-repeat: no-repeat;
 }
+iframe#tela{
+    position: relative;
+    top: 79px;
+    left: 20px;
+    width: 270px;
+    height: 470px;
+}
