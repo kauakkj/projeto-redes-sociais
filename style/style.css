@@ -27,6 +27,7 @@ main{
 section#celular{
     position: absolute;
     top: 50%;
+    padding-right: 10px;
     left: 40%;
     transform: translate(-50%, -50%);
     height: 627px;
